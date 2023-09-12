@@ -19,15 +19,7 @@ export const Book = () => {
             Online.
           </h2>
 
-          <Modal
-            isOpen={modal}
-            onRequestClose={closeModal}
-            style={CustomStyles}
-            contentLabel="Example Modal"
-            ariaHideApp={false}
-          >
-            <ModalContent />
-          </Modal>
+        
         </S.Description>
         <S.CallNow>
           

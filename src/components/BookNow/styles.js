@@ -9,7 +9,23 @@ export const BookContainer = styled.main `
     background-image: url(${bg});
     background-size: cover;
     background-position: center;
-    
+    @media (max-width: 420px) {
+        align-items: center ;
+        display: inline-block
+       flex-direction:row ;
+        width:100%;
+        flex-wrap: nowrap;
+       overflow:hidden;
+
+        h2 {
+            font-size: 10px;
+           
+
+        p {
+            padding: 0px 50px;
+        }
+
+    }
 
 `
 
@@ -116,6 +132,6 @@ export const CallNow = styled.div `
     }
 
     @media (max-width: 415px) {
-        display: none;
+        display:flex;
     }
 ` 

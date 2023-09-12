@@ -46,7 +46,7 @@ export const Container = styled.div `
         align-items: center;
 
         h2 {
-            font-size: 1.8rem;
+            font-size: 18px;
 
         }
 

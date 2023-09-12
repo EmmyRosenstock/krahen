@@ -74,6 +74,13 @@ export const HeaderBar = styled.div`
       width: 150px;
       font-size: 12px;
     }
+    .logo{
+      width:100px;
+    }
+    p{
+      font-size:10px;
+      width:100%;
+    }
   }
 `;
 
@@ -102,6 +109,13 @@ export const Nav = styled.nav`
   @media (max-width: 415px) {
     a {
       display: none;
+    }
+    .logo{
+      width:100px;
+    }
+    p{
+      font-size:10px;
+      width:100%
     }
   }
 `;

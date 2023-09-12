@@ -2,7 +2,7 @@ import styled from "styled-components";
 import Bg from "../../assets/images/IMG3.png";
 
 export const Container = styled.section`
-  height: 70vh;
+  height:50%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -36,9 +36,19 @@ export const Container = styled.section`
   }
 
   @media (max-width: 420px) {
+ margin-top:-30px;
     h3 {
       font-size: 1.6rem;
       padding: 0px 50px;
+    }
+    li{
+      width:90%;
+      font-size:10px;
+      margin-left:20px;
+     
+    }
+    p{
+      font-size:10px;
     }
   }
   `

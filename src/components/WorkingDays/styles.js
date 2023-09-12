@@ -9,7 +9,11 @@ export const WorkingSection = styled.section`
   background-color: #fff;
 
   @media (max-width: 420px) {
-    height: 60vh;
+    height: 100vh;
+    width:100vh;
+    display:flex;
+    margin-left:-20vh;
+
   }
 `;
 
